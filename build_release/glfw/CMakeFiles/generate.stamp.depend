@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeDependentOption.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/GNUInstallDirs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake
+D:/github/CSC317_bounding_volume_hierarchy/libigl/external/glfw/CMake/glfw3.pc.in
+D:/github/CSC317_bounding_volume_hierarchy/libigl/external/glfw/CMake/glfw3Config.cmake.in
+D:/github/CSC317_bounding_volume_hierarchy/libigl/external/glfw/CMakeLists.txt

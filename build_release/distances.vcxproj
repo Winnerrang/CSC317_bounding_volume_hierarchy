@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{950DC375-93BD-33A2-BD95-973B02BDFF27}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>distances</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\github\CSC317_bounding_volume_hierarchy\build_release\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">distances.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">distances</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\github\CSC317_bounding_volume_hierarchy\build_release\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">distances.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">distances</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\github\CSC317_bounding_volume_hierarchy\build_release\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">distances.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">distances</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\github\CSC317_bounding_volume_hierarchy\build_release\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">distances.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">distances</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\core.lib;opengl32.lib;glad\Debug\glad.lib;glfw\src\Debug\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/github/CSC317_bounding_volume_hierarchy/build_release/Debug/distances.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/github/CSC317_bounding_volume_hierarchy/build_release/Debug/distances.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\core.lib;opengl32.lib;glad\Release\glad.lib;glfw\src\Release\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/github/CSC317_bounding_volume_hierarchy/build_release/Release/distances.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/github/CSC317_bounding_volume_hierarchy/build_release/Release/distances.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\core.lib;opengl32.lib;glad\MinSizeRel\glad.lib;glfw\src\MinSizeRel\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/github/CSC317_bounding_volume_hierarchy/build_release/MinSizeRel/distances.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/github/CSC317_bounding_volume_hierarchy/build_release/MinSizeRel/distances.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\github\CSC317_bounding_volume_hierarchy\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glad\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\external\glfw\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\include;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\..\external\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\core.lib;opengl32.lib;glad\RelWithDebInfo\glad.lib;glfw\src\RelWithDebInfo\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/github/CSC317_bounding_volume_hierarchy/build_release/RelWithDebInfo/distances.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/github/CSC317_bounding_volume_hierarchy/build_release/RelWithDebInfo/distances.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\github\CSC317_bounding_volume_hierarchy\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/github/CSC317_bounding_volume_hierarchy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/github/CSC317_bounding_volume_hierarchy -BD:/github/CSC317_bounding_volume_hierarchy/build_release --check-stamp-file D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeCCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeSystem.cmake;D:\github\CSC317_bounding_volume_hierarchy\cmake\FindLIBIGL.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\CXXFeatures.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\DownloadProject.CMakeLists.cmake.in;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\DownloadProject.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglDownloadExternal.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglFolders.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglWindows.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\libigl.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/github/CSC317_bounding_volume_hierarchy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/github/CSC317_bounding_volume_hierarchy -BD:/github/CSC317_bounding_volume_hierarchy/build_release --check-stamp-file D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeCCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeSystem.cmake;D:\github\CSC317_bounding_volume_hierarchy\cmake\FindLIBIGL.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\CXXFeatures.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\DownloadProject.CMakeLists.cmake.in;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\DownloadProject.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglDownloadExternal.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglFolders.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglWindows.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\libigl.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/github/CSC317_bounding_volume_hierarchy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/github/CSC317_bounding_volume_hierarchy -BD:/github/CSC317_bounding_volume_hierarchy/build_release --check-stamp-file D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeCCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeSystem.cmake;D:\github\CSC317_bounding_volume_hierarchy\cmake\FindLIBIGL.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\CXXFeatures.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\DownloadProject.CMakeLists.cmake.in;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\DownloadProject.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglDownloadExternal.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglFolders.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglWindows.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\libigl.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/github/CSC317_bounding_volume_hierarchy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/github/CSC317_bounding_volume_hierarchy -BD:/github/CSC317_bounding_volume_hierarchy/build_release --check-stamp-file D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeCCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\3.23.1\CMakeSystem.cmake;D:\github\CSC317_bounding_volume_hierarchy\cmake\FindLIBIGL.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\CXXFeatures.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\DownloadProject.CMakeLists.cmake.in;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\DownloadProject.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglDownloadExternal.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglFolders.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\LibiglWindows.cmake;D:\github\CSC317_bounding_volume_hierarchy\libigl\cmake\libigl.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\github\CSC317_bounding_volume_hierarchy\build_release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\github\CSC317_bounding_volume_hierarchy\distances.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\github\CSC317_bounding_volume_hierarchy\build_release\ZERO_CHECK.vcxproj">
+      <Project>{1EFF5C54-6B17-3845-8A65-B0036EFDEC5E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\github\CSC317_bounding_volume_hierarchy\build_release\core.vcxproj">
+      <Project>{0988C070-0C09-3F54-A96E-DA23F14C47B0}</Project>
+      <Name>core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\github\CSC317_bounding_volume_hierarchy\build_release\glad\glad.vcxproj">
+      <Project>{24E31B27-D156-3940-8A34-0BA4810CD6C2}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\github\CSC317_bounding_volume_hierarchy\build_release\glfw\src\glfw.vcxproj">
+      <Project>{6B64114B-A0B4-3BA7-8C76-75FCB4A910DC}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Compiler/MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/FindOpenGL.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+D:/github/CSC317_bounding_volume_hierarchy/CMakeLists.txt
+D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/3.23.1/CMakeCCompiler.cmake
+D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/3.23.1/CMakeCXXCompiler.cmake
+D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/3.23.1/CMakeRCCompiler.cmake
+D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/3.23.1/CMakeSystem.cmake
+D:/github/CSC317_bounding_volume_hierarchy/cmake/FindLIBIGL.cmake
+D:/github/CSC317_bounding_volume_hierarchy/libigl/cmake/CXXFeatures.cmake
+D:/github/CSC317_bounding_volume_hierarchy/libigl/cmake/DownloadProject.CMakeLists.cmake.in
+D:/github/CSC317_bounding_volume_hierarchy/libigl/cmake/DownloadProject.cmake
+D:/github/CSC317_bounding_volume_hierarchy/libigl/cmake/LibiglDownloadExternal.cmake
+D:/github/CSC317_bounding_volume_hierarchy/libigl/cmake/LibiglFolders.cmake
+D:/github/CSC317_bounding_volume_hierarchy/libigl/cmake/LibiglWindows.cmake
+D:/github/CSC317_bounding_volume_hierarchy/libigl/cmake/libigl.cmake

@@ -1,0 +1,10 @@
+^D:\GITHUB\CSC317_BOUNDING_VOLUME_HIERARCHY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/github/CSC317_bounding_volume_hierarchy -BD:/github/CSC317_bounding_volume_hierarchy/build_release --check-stamp-file D:/github/CSC317_bounding_volume_hierarchy/build_release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
