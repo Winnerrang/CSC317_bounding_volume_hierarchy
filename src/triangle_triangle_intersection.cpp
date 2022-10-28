@@ -80,7 +80,7 @@ bool triangle_triangle_intersection(
   ////////////////////////////////////////////////////////////////////////////
 }
 
-void computeDistanceToPlane(
+static void computeDistanceToPlane(
 	const Eigen::RowVector3d& A,
 	const Eigen::RowVector3d& B,
 	const Eigen::RowVector3d& C,
@@ -98,7 +98,7 @@ void computeDistanceToPlane(
 
 }
 
-int computeLineAndProject(
+static int computeLineAndProject(
 	const Eigen::RowVector3d& N1,
 	const Eigen::RowVector3d& N2
 ) {
@@ -109,7 +109,7 @@ int computeLineAndProject(
 
 }
 
-void findInterval(
+static void findInterval(
 	const std::vector<pair>& T,
 	const int axis,
 	double& t1,
@@ -141,7 +141,7 @@ void findInterval(
 
 }
 
-bool coplanarCase(
+static bool coplanarCase(
 	const Eigen::RowVector3d& A0,
 	const Eigen::RowVector3d& A1,
 	const Eigen::RowVector3d& A2,
@@ -185,7 +185,7 @@ bool coplanarCase(
 	return false;
 }
 
-bool isInside(const Eigen::Vector2d& p, const std::vector<Eigen::Vector2d>& T) {
+static bool isInside(const Eigen::Vector2d& p, const std::vector<Eigen::Vector2d>& T) {
 	
 	std::vector<double> cross(3);
 	
